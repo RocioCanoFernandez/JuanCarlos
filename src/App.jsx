@@ -30,7 +30,7 @@ function App() {
   const data = {
     name: "Juan Carlos Rodriguez",
     role: "",
-    slogan: "Quiero unirme a la Kalma",
+    slogan: "",
     email: "jcarlos.rodriguez@solucionesconkalma.com",
     phone: "600223300",
     phoneUrl: "+34600223300",
@@ -82,7 +82,6 @@ END:VCARD`;
         
         <div className="hero-content">
           <h1 className="name">{data.name}</h1>
-          <p className="slogan">{data.slogan}</p>
         </div>
       </header>
 
